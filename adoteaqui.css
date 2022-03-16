@@ -1,0 +1,87 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2016/05/02/10/17/love-1366940__480.jpg);
+}
+
+H1{
+    background-color: rgb(14, 181, 247);
+    text-align: center;
+    font-family: cursive;
+}
+
+.button{
+    background-color: aquamarine;
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+#home:hover {
+    color: rgb(241, 128, 236);
+    background-color: rgb(252, 248, 248);
+    transition-delay: 0.2s;
+}
+
+#sobrenos:hover {
+    color: rgb(241, 128, 236);
+    background-color: rgb(252, 248, 248);
+    transition-delay: 0.2s;
+}
+
+#conheca:hover {
+    color: rgb(241, 128, 236);
+    background-color: rgb(252, 248, 248);
+    transition-delay: 0.2s;
+}
+
+#contato:hover {
+    color: rgb(241, 128, 236);
+    background-color: rgb(252, 248, 248);
+    transition-delay: 0.2s;
+}
+
+a {
+    text-align: center;
+    color: black;
+    margin-top: 1%
+}
+
+.imagem1{
+    display: inline-block;
+    justify-content: right baseline;
+    padding: 5%;
+    margin-left: 5%;
+
+}
+
+.texto{
+    display: inline-block;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 50%;
+    height: 340px;
+    vertical-align: top;
+    margin-top: 5%;
+}
+
+p{
+    font-family: cursive;
+    text-align: center;
+    margin-top: 15%;
+    padding: 20px;
+}
+
+#patinhas{
+    width: 15%;
+    margin-left: 40%;
+}
+
+small{
+    background-color: rgb(14, 181, 247);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
